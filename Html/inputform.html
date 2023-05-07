@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Input and Form using CSS</title>
 
-    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="style.css">
 
     <!-- <script src="scripts.js"></script> -->
     
@@ -20,17 +20,17 @@
 
         <label for="name">Name</label>
         <div>
-            <input type="text" name="myName" id="name">
+            <input type="text" name="myName" id="name" placeholder="Type your Name OR Username">
         </div>
         <br>
-        <label for="role">Role</label>
+        <label for="role">Department</label>
         <div>
-            <input type="text" name="myRole" id="role">
+            <input type="text" name="myRole" id="role" placeholder="Your Department">
         </div>
         <br>
         <label for="email">Email ID</label>
         <div>
-            <input type="email" name="myEmail" id="email">
+            <input type="email" placeholder="Email Address" name="myEmail" id="email">
         </div>
         <br>
         <label for="date">Date</label>
@@ -40,7 +40,7 @@
         <br>
         <label for="bonus">Bonus</label>
         <div>
-            <input type="number" name="myBonus" id="bonus">
+            <input type="number" placeholder="Your Desire Bonus" name="myBonus" id="bonus">
         </div>
         <br>
 
@@ -49,21 +49,21 @@
 
         </div>
         <br>
-        <div>
-            Gender: male <input type="radio" name="myGender"> female <input type="radio" name="myGender" </div>
+        <div id="myGender">
+            Gender: male <input type="radio" name="myGender"> female <input type="radio" name="myGender" ></div>
 
             <br>
             <div>
                 write About yourSelf: <br>
-                <textarea name="myText" cols="45" rows="5"></textarea>
+                <textarea name="myText" placeholder="Describe Yourself" cols="45" rows="5"></textarea>
             </div>
             <br>
 
-            <div>
+            <div class="carsId">
                 <label for="car">Car</label>
                 <select name="myCar" id="car">
-                    <option value="mg">M.G Hector</option>
-                    <option value="kia" selected>Kia</option>
+                    <option value="mg" id="mG">M.G Hector</option>
+                    <option value="kia" id="kiA">Kia</option>
                 </select>
             </div>
             <br>
@@ -75,5 +75,4 @@
 
     </form>
 </body>
-
 </html>
