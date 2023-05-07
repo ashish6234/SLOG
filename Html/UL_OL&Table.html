@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<!-- for styling the content in html we can use style tag -->
+
+<body style="background-color:powderblue">
+
+disc Sets the list item marker to a bullet (default)
+
+    <ul type="disc">
+        <!-- disc Sets the list item marker to a bullet (default) -->
+        <!-- ul is unordered list which don't have alphabet and numbers -->
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li>
+        <li>Lorem, ipsum dolor sit amet consectetur adipisicing elit.</li> <hr>
+        
+        <ul type="square">
+            <!-- square Sets the list item marker to a square -->
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit.</li>
+            <li>Lorem ipsum dolor sit.</li>
+        </ul> <hr>
+
+        <li>
+            <ul type="circle">
+            <!-- circle Sets the list item marker to a circle -->
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+            </ul> <hr>
+
+            <ul type="none">
+                <!-- none The list items will not be marked -->
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+                <li>Lorem ipsum dolor sit.</li>
+            </ul>
+        </li>
+    </ul><hr>
+
+    <!-- ol is for ordered list -->
+    <ol type="a">
+<!-- a type is for lowercase alphabet -->
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li>
+        <li>Lorem ipsum dolor sit amet.</li><hr>
+
+        <ol type="1">
+            <!-- type 1 is start the number from 1 -->
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+            <li>Lorem ipsum dolor sit amet consectetur.</li>
+        </ol>
+    </ol><hr>
+
+    <!-- Start indicates to start the list from which number you want to start it -->
+    <ol start="50"> 
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol>
+      <!-- type I or i indicates the roman numbers from 50 number -->
+      <ol type="I" start="50">
+        <li>Coffee</li>
+        <li>Tea</li>
+        <li>Milk</li>
+      </ol> <hr>
+
+      <!-- dl is for description List -->
+    <dl>
+        <dt>Coffee</dt>
+        <dd>- black hot drink</dd>
+        <dt>Milk</dt>
+        <dd>- white cold drink</dd>
+    </dl><hr>
+
+
+    <!-- nested Lists -->
+    <h2>A Nested List</h2>
+<p>Lists can be nested (list inside list):</p>
+
+<ol>
+  <li>Coffee</li>
+  <li>Tea
+    <ol>
+      <li>Black tea</li>
+      <li>Green tea</li>
+    </ol>
+  </li>
+  <li>Milk</li>
+</ol>
+
+    <h3>Html Table</h3>
+    <table>
+
+        <thead>
+            <th>Name</th>
+            <th>Emp Id</th>
+            <th>Emp Role</th>
+            <th>Emp salary</th>
+
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>Rahul</td>
+                <td>23445</td>
+                <td>Engineer</td>
+                <td>604000</td>
+            </tr>
+
+            <tr>
+                <td>Rishabh</td>
+                <td>23444</td>
+                <td>software Engineer</td>
+                <td>1104000</td>
+            </tr>
+            <tr>
+                <td>Sandesh</td>
+                <td>234409</td>
+                <td>Web developer</td>
+                <td>104000</td>
+            </tr>
+
+            <tr>
+                <td>Pratam</td>
+                <td>234445</td>
+                <td>electrical Engineer</td>
+                <td>404000</td>
+            </tr>
+        </tbody>
+    </table><hr>
+
+    <table border="1">
+        <tr>
+
+            <td colspan="2">Name</td>
+
+            <td>Branch</td>
+
+        <tr>
+
+            <td>arjun</td>
+            <td>karan</td>
+            <td rowspan="2">it(branch)</td>
+        </tr>
+
+        <tr>
+
+            <td>arjun</td>
+            <td>karan</td>
+
+        </tr>
+        <tr>
+
+            <td>ashish</td>
+            <td>ajay</td>
+            <td>it</td>
+        </tr>
+    </table>
+</body>
+
+</html>

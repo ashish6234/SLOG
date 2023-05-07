@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar&display=swap');
+
+
+
+h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 40px;
+
+    line-height: 4em;
+}
+
+p{
+    background-color: rgb(247, 160, 160);
+    font-family: 'Sigmar', cursive;;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 45px;
+    line-height: 2em;
+}
+
+span{
+    font-weight: bold;
+
+    font-style: italic;
+}

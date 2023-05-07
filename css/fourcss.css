@@ -1,0 +1,49 @@
+#firstBox {
+    /* color by name */
+    color: blue;
+
+    background-color: bisque;
+    height: 100px;
+    width: 455px;
+    /* border-color: brown;
+    border-style: double;
+    border-width: 10px; */
+    border: double 10px black;
+    border-radius: 10px;
+
+
+
+}
+
+#secondBox {
+    /* color of Rgb i.e- Red, Green, Blue */
+    color: rgb(213, 7, 7);
+    background-color: rgb(250, 246, 176);
+    height: 100px;
+    width: 500px;
+    border-top: 4px dotted black;
+    border-right: 4px double rgb(255, 8, 8);
+    border-bottom: 4px dotted rgb(3, 185, 40);
+    border-left: 4px double rgb(77, 53, 8);
+    border-bottom-left-radius: 10px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 20px;
+}
+
+/* color by hex value colors using a six-digit combination of letters (A-F) and numbers (0-9) */
+#thirdBox {
+    background-color: chartreuse;
+    color: #000;
+    height: 400px;
+    width: 500px;
+    background-image: url('https://play-lh.googleusercontent.com/1-hPxafOxdYpYZEOKzNIkSP43HXCNftVJVttoo4ucl7rsMASXW3Xr6GlXURCubE1tA=w3840-h2160-rw');
+    background-repeat: no-repeat;
+    background-size: 50%;
+    /* background-position: center center; */
+    /* background-position: center top; */
+    /* background-position: top top; */
+    /* background-position: bottom right; */
+    /* background-position: bottom left; */
+    background-position: bottom center;
+}

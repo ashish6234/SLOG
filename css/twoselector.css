@@ -1,0 +1,29 @@
+/* element selector */
+
+p{
+    color: rgb(219, 5, 5);
+}
+
+/* iD selector */
+
+#idSec{
+    color: rgb(76, 0, 255);
+    background-color: antiquewhite;
+}
+
+/* class selector */
+
+.secClss{
+    background-color: rgb(189, 143, 143);
+    text-align: center;
+}
+
+/* Group selector */
+
+h4, footer, span {
+
+    text-align: center;
+
+    background-color: aqua;
+
+}

@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bruno+Ace+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    background-color: rgb(250, 231, 207);
+    width: 434px;
+    font-family: 'Bebas Neue', cursive;
+    height: auto;
+
+}
+
+.sidebar nav {
+    padding: 45px;
+}
+
+.sidebar nav li {
+    list-style: none;
+    font-size: 28px;
+    padding: 32px 0;
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: #000000;
+    }
+
+.main {
+    background-color: rgb(244, 252, 189);
+    width: auto;
+}
+
+.container {
+    display: flex;
+}
+
+.infoContainer {
+    background: linear-gradient(rgb(248, 182, 182), rgb(190, 190, 247));
+    height: 68vh;
+    width: 70vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px 20px;
+}
+
+.hello {
+    font-size: 20px;
+    font-family: 'Bruno Ace SC', cursive;
+
+
+}
+
+.name {
+
+    font-size: 40px;
+    font-family: 'Black Ops One', cursive;
+}
+
+.about {
+
+    font-size: 15px;
+    font-family: 'Bruno Ace SC', cursive;
+}
+
+.moreabout {
+    font-size: 12px;
+    font-family: 'Black Ops One', cursive;
+    margin-top: 22px;
+
+}
+
+.buttons {
+    margin-top: 34px;
+}
+
+.buttons button {
+    background-color: dodgerblue;
+    padding: 9px 14px;
+    color: white;
+    font-weight: bold;
+    border-radius: 22px;
+    font-size: 15px;
+    margin: 0 3px;
+    cursor: pointer;
+
+}
+
+.buttons button:hover{
+    background-color: #fff;
+    color: dodgerblue;
+}
+
+.devPic img {
+    height: 68vh;
+}
+
+

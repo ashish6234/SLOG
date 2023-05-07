@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&family=Roboto&display=swap');
+
+h1{
+    text-align: center;
+    text-decoration-color: rgb(173, 249, 254);
+    color: rgb(154, 7, 7);
+}
+
+p{
+    background-color: aquamarine;
+    font-style: oblique;
+
+}
+
+body{
+    background: #bbf9fc;
+    text-align: center;
+}
+
+a{
+    background: #eddbdb;
+}
+
+form {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"], input[type="email"], input[type="password"] {
+    width: 80%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+  }
+  
+  input[type="submit"] {
+    background: -o-linear-gradient(red, blue, yellow);
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #3e8e41;
+  }
+  
+  .error {
+    color: red;
+    margin-top: 5px;
+  }
+  
