@@ -1,0 +1,106 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.container {
+    text-align: center;
+    background-color: #fad481;
+    border: double black;
+    border-radius: 20px;
+    padding-top: 40px;
+    padding: 50px 20px 50px 60px;
+    overflow: ;
+
+    /* padding from upside only */
+
+    padding-right: 30px;
+    /* padding from right only */
+    padding-bottom: 50px;
+    /* padding from bottom only */
+    padding-left: 50px;
+    /* padding from padding-left only */
+    padding-top: 50px;
+    /* padding from padding-top only */
+    padding: 20px;
+    /* from every side we used to equal padding */
+    margin: 40px auto;
+
+    width: 1000px;
+    box-sizing: border-box;
+}
+
+.item {
+    border: 3px solid blue;
+    padding: 2px;
+    margin: 2px 3px;
+    background: white;
+}
+
+#ftsP {
+    float: left;
+    width: 49%;
+}
+
+#snP {
+    float: right;
+    width: 49%;
+}
+
+#tdP {
+    clear: left;
+    clear: both;
+    float: left;
+    width: 99%;
+}
+
+p,
+h3 {
+    text-align: justify;
+    text-align: center;
+
+    margin: auto;
+    width: 455px;
+}
+
+/* something that show my creatives */
+
+
+
+.btn {
+    background-color: rgb(39, 228, 242);
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 4px;
+
+}
+
+a {
+    text-decoration: none;
+    color: rgb(82, 70, 70);
+
+}
+
+a:hover {
+    color: #fad481;
+    background-color: blue;
+}
+
+a:visited {
+    background-color: greenyellow;
+}
+
+a:active {
+    background-color: red;
+}
+
+btn:hover {
+    background-color: rgb(23, 18, 13);
+    color: rgb(5, 15, 11);
+    border: double black;
+}

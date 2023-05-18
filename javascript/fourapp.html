@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h2>JavaScript Expressions</h2>
+
+<p>Expressions compute to values.</p>
+
+<p id="demo"></p>
+<p id="demoOne"></p>
+<p id="demoTwo"></p>
+<p id="demoThree"></p>
+<p id="demoFour"></p>
+<p id="demoFive"></p>
+<button onclick="alert('Hello\nHow are you?')">Try it</button>
+
+<button type="button" onclick="document.write(5 + 6)">Try it</button>
+
+
+<script>
+
+
+
+document.getElementById("demo").innerHTML = "Ashish" + " " + "Ramchandra";
+
+document.getElementById("demoOne").innerHTML = 5 + 20;
+
+document.getElementById("demoTwo").innerHTML = "You can call me" + " "+ "Ashish";
+
+document.getElementById("demoThree").innerHTML = "This is the first line.<br>This is the second line.";
+
+document.write(5 + 6 + " ");
+document.write('type something'+ " ");  // " " will create space between the words
+document.write(5 + 6);
+
+document.write(5 + 6 + '\n');
+document.write('type something' + '\n'); // \n will break in the line of code
+document.write(5 + 6 + '\n');
+
+
+document.write(5 + 6 + '<br>');
+document.write('type something' + '<br>'); // <br> will create break in line
+document.write(5 + 6 + '<br>');
+
+
+console.log(5 + 6 + '\n' + 'type something' + '\n' + 5 + 6);  // + '\n will bring break in the line'
+
+
+
+
+</script>
+
+</body>
+</html>
