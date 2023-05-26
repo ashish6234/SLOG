@@ -1,0 +1,81 @@
+
+form {
+    text-align: center;
+    max-width: 400px;
+    margin: 50px auto;
+    padding: 20px;
+    border: 1px solid#ddd;
+    border-radius: 9px;
+    box-shadow: 5px 5px 12px #180f0f, 5px 5px 12px rgba(27, 210, 239, 0.839);
+    background: linear-gradient(55deg,#F0997D,#D3756B);
+
+  }
+  form p{
+    font-size: 19px; 
+    font-weight: 500;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 900;
+  }
+  
+  input {
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #000000;
+    box-shadow: 5px 5px 12px #FFC3A1,
+      5px 5px 12px #D3756B;
+  }
+
+  input[type="text"],
+  input[type="email"]{
+    text-align: center;
+  }
+  
+  textarea {
+    margin-top: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+      box-shadow: 5px 5px 12px #D3756B,
+        5px 5px 12px #FFC3A1;
+    max-width: 80%;
+  }
+  
+  textarea:placeholder-shown {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+    text-align: center;
+  }
+  
+  button[type="submit"] {
+    font-size: 15px;
+    font-family: sans-serif;
+    font-style: italic;
+    color: black;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: inset 5px 5px 12px #F0997D,
+      5px 5px 12px #D3756B;
+    max-width: 80%;
+  }
+
+  button[type="submit"]:hover{
+    font-size: medium;
+  }
+
+  @media screen and (max-width:650px) {
+    form{
+      width:350px;
+    }
+    
+  }
+
+  @media screen and (max-width:450px) {
+    form{
+      width:300px;
+    }
+    
+  }

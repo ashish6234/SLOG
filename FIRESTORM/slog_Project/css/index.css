@@ -1,0 +1,64 @@
+body{
+    box-sizing: border-box;
+    margin: 0;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0;
+}
+
+#top{
+    background-color: black;
+    color: white;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+}
+
+.indian,.sports,.international{
+    float: left;
+    width: 100%;
+    z-index: 100;
+    text-align: justify;
+    margin-top: 20px;
+}
+
+.indian p,.indian h2{
+    margin: 30px;
+}
+
+.indian h2{
+    text-align: center;
+    text-decoration: underline;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.carousel-cell {
+    width: 66%;
+    height: 300px;
+    margin-right: 10px;
+    border-radius: 5px;
+    counter-increment: carousel-cell;
+}
+
+.carousel-cell img{
+    border-radius: 20px;
+}
+
+h4{
+    padding: 10px;
+    color:white;
+    text-decoration: none;
+    font-size: 20px;
+    text-align: center;
+}
+
+.hyper:hover{
+    text-decoration: underline;
+    color: whitesmoke;
+}

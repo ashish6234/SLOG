@@ -1,0 +1,22 @@
+.video-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 50%;
+  }
+  
+  video {
+    height: 500px;
+    padding-top: 10%;
+    
+  }
+
+
+  .video-container{
+    background-color: rgb(255, 157, 0);
+  }
+
+  #video-player{
+    text-align: center;
+
+  }

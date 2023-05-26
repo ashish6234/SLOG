@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- link css here -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- link java script -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- title here -->
+    <title>New90</title>
+</head>
+
+<body>
+    <div id="header">
+        <div id="top">
+            <p id="date">Wednesday, May 17, 2023</p>
+            <p style="font-family: 'Dancing Script', cursive;font-size: 70px;">News 90</p>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="indian_news.html">Indian News <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="sports_news.html">Sports <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="international_news.html">International News <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-success" type="submit" id="signIn"><a href="sign_in.html"
+                            style="text-decoration: none;color: white;">Sign In</a></button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <!-- news started form here -->
+    <div class="main">
+        <!-- first news -->
+        <div class="news1">
+            <h2>IPL 2023: LSG vs MI - Arjun Tendulkar Bitten By Dog Ahead Of Clash, Reveals It Himself</h2>
+            <img src="images/sports/sports_news_1.jpg" alt="">
+            <p>Arjun Tendulkar, who made his debut for MI in IPL 2023, was in an unfortunate situation before the game
+                vs LSG.
+
+                Arjun revealed that he was bitten by a dog when he met LSG's Yudhvir Singh.
+
+                This came to light when they met ahead of the game. </p>
+        </div>
+        <!-- second news -->
+        <div class="news2">
+            <h2>IPL POINTS TABLE</h2>
+            <table border="2px">
+                <tr>
+                    <th colspan="2"> </th>
+                    <th id="play">GP</th>
+                    <th id="win">W</th>
+                    <th id="notPlay">NR</th>
+                    <th id="lose">L</th>
+                    <th id="netRR">NRR</th>
+                    <th id="pts">PTS</th>
+                </tr>
+                <tr>
+                    <td id="GT">1</td>
+                    <td id="GT">Gujarat Titans</td>
+                    <td id="play">13</td>
+                    <td id="win">9</td>
+                    <td id="notPlay">0</td>
+                    <td id="lose">4</td>
+                    <td id="netRR">0.83</td>
+                    <td id="pts">18</td>
+                </tr>
+                <tr>
+                    <td id="CSK">2</td>
+                    <td id="CSK">Chennai Super Kings</td>
+                    <td id="play">13</td>
+                    <td id="win">7</td>
+                    <td id="notPlay">1</td>
+                    <td id="lose">5</td>
+                    <td id="netRR">0.38</td>
+                    <td id="pts">15</td>
+                </tr>
+                <tr>
+                    <td id="LSG">3</td>
+                    <td id="LSG">Lucknow Super Giants</td>
+                    <td id="play">13</td>
+                    <td id="win">7</td>
+                    <td id="notPlay">1</td>
+                    <td id="lose">5</td>
+                    <td id="netRR">0.30</td>
+                    <td id="pts">15</td>
+                </tr>
+                <tr>
+                    <td id="MI">4</td>
+                    <td id="MI">Mumbai Indians</td>
+                    <td id="play">13</td>
+                    <td id="win">7</td>
+                    <td id="notPlay">0</td>
+                    <td id="lose">6</td>
+                    <td id="netRR">-0.13</td>
+                    <td id="pts">14</td>
+                </tr>
+                <tr>
+                    <td id="RCB">5</td>
+                    <td id="RCB">Royal Challengers Bangalore</td>
+                    <td id="play">12</td>
+                    <td id="win">6</td>
+                    <td id="notPlay">0</td>
+                    <td id="lose">6</td>
+                    <td id="netRR">0.17</td>
+                    <td id="pts">12</td>
+                </tr>
+                <tr>
+                    <td id="RR">6</td>
+                    <td id="RR">Rajasthan Royals</td>
+                    <td id="play">13</td>
+                    <td id="win">6</td>
+                    <td id="notPlay">0</td>
+                    <td id="lose">7</td>
+                    <td id="netRR">0.14</td>
+                    <td id="pts">12</td>
+                </tr>
+                <tr>
+                    <td id="KKR">7</td>
+                    <td id="KKR">Kolkata Knight Riders</td>
+                    <td id="play">13</td>
+                    <td id="win">6</td>
+                    <td id="notPlay">0</td>
+                    <td id="lose">7</td>
+                    <td id="netRR">-0.26</td>
+                    <td id="pts">12</td>
+                </tr>
+                <tr>
+                    <td id="PSK">8</td>
+                    <td id="PSK">Punjab Kings</td>
+                    <td id="play">13</td>
+                    <td id="win">6</td>
+                    <td id="notPlay">0</td>
+                    <td id="lose">7</td>
+                    <td id="netRR">-0.31</td>
+                    <td id="pts">12</td>
+                </tr>
+                <tr>
+                    <td id="DC">9</td>
+                    <td id="DC">Delhi Capitals</td>
+                    <td id="play">13</td>
+                    <td id="win">5</td>
+                    <td id="notPlay">0</td>
+                    <td id="lose">8</td>
+                    <td id="netRR">-0.57</td>
+                    <td id="pts">10</td>
+                </tr>
+                <tr>
+                    <td id="SRH">10</td>
+                    <td id="SRH">Sunrisers Hyderabad</td>
+                    <td id="play">12</td>
+                    <td id="win">4</td>
+                    <td id="notPlay">0</td>
+                    <td id="lose">8</td>
+                    <td id="netRR">-0.57</td>
+                    <td id="pts">8</td>
+                </tr>
+            </table>
+        </div>
+        <!-- third news -->
+        <div class="news3">
+            <h2>These NFL Teams Have Never Won the Super Bowl</h2>
+            <img src="images/sports/sports_news_2.jfif" alt="error">
+            <p>NFL teams, there is no greater prize than the Lombardi Trophy. At the beginning of every season, each
+                team sets their sights on the highest achievement in American football. While some teams like the New
+                England Patriots and the Kansas City Chiefs have several wins under their belts, other teams have never
+                brought home the trophy, and some have yet to make it to the Super Bowl at all. Even though they haven’t
+                brought the Lombardi Trophy home just yet, these teams always have next year to earn the NFL’s top honor
+                and
+                become Super Bowl Champions.</p>
+        </div>
+        <!-- fourth news -->
+        <div class="news4">
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell">
+                    <img src="images/sports/sports_news_3.jfif" height="100%" width="100%" alt="error"
+                        style="position: absolute;z-index: -1;filter: brightness(30%);">
+                    <h2 class="text">Buffalo Bills</h2>
+                    <p class="text">In the early 1990s, the Buffalo Bills fought their way to four consecutive Super
+                        Bowls, but sadly never won a single one. They haven’t returned to the Super Bowl since their
+                        most recent loss in 1993</p>
+                </div>
+                <div class="carousel-cell">
+                    <img src="images/sports/sports_news_4.jfif" height="100%" width="100%" alt="error"
+                        style="position: absolute;z-index: -1;filter: brightness(30%);">
+                    <h2 class="text">SAFF Cup 2023: India and Pakistan to renew football rivalry; clubbed in same group
+                    </h2>
+                    <p class="text">India and Pakistan are set to renew their football rivalry after nearly five years
+                        as the two neighbouring countries have been clubbed in the same group in the SAFF Cup to be held
+                        in Bengaluru from June 21 to July 4. The draw of the 14th edition of the South Asian Football
+                        Federation Cup was held here on Wednesday, with defending champion India, along with Pakistan,
+                        Kuwait and Nepal, being clubbed in Group A. Lebanon, Maldives, Bangladesh, and Bhutan are in
+                        Group B.</p>
+                </div>
+                <div class="carousel-cell">
+                    <img src="images/sports/sports_news_5.jfif" height="100%" width="100%" alt="error"
+                        style="position: absolute;z-index: -1;filter: brightness(30%);">
+                    <h2 class="text">Scenarios: What CSK, LSG, Mumbai, RCB, Kings, Royals and KKR need for IPL playoff
+                        qualification</h2>
+                    <p class="text">LSG's thrilling five-run win against Mumbai Indians keeps alive their hopes of
+                        finishing in the top two, let alone qualifying. That will definitely happen if they beat Kolkata
+                        Knight Riders in their last game away, and if Chennai Super Kings lose in Delhi. If LSG and CSK
+                        finish on 17, it will come down to the result margins, as there is currently little to choose
+                        between the net run rates (NRR): 0.304 for Super Giants, and 0.381 for Super Kings.</p>
+                </div>
+                <div class="carousel-cell">
+                    <img src="images/sports/sports_news_6.jfif" height="100%" width="100%" alt="error"
+                        style="position: absolute;z-index: -1;filter: brightness(30%);">
+                    <h2 class="text">What we know about the Mercedes and Ferrari upgrades heading to Imola</h2>
+                    <p class="text">Upgrades will be the word of the weekend at Imola, with many of the teams rolling
+                        out their first update packages for the 2023 F1 cars.
+
+                        Formula 1 heads to Europe for the first time this season this weekend, with long-time San Marino
+                        GP venue Imola playing host to the Emilia Romagna Grand Prix.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

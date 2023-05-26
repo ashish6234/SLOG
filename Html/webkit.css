@@ -1,0 +1,10 @@
+#box {
+    width: 200px;
+    height: 200px;
+    background-color: rgb(48, 45, 45);
+    -webkit-tap-highlight-color: initial;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+  }
+  

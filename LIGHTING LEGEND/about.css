@@ -1,0 +1,21 @@
+.about{
+    text-align:  center;
+font-size: xx-large;
+font-weight: 500;
+font-style: italic;
+border: 2px groove black;
+background-color: black;
+color: white;
+border-radius: 20px;
+}
+.para{
+    font-size:xx-large;
+    font-style:italic;
+}
+.container{
+    font-size: xx-large;
+    font-style: italic;
+}
+body{
+    background-color: gray;
+}

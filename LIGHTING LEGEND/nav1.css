@@ -1,0 +1,57 @@
+body{
+    font-family: cursive;
+    font-size: 30px;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    width:20%;
+    margin: 0px;
+    padding:0px;
+    overflow: hidden;
+    background-color: darkgray;
+    overflow: auto;
+    height: 100%;
+    position: fixed;
+}
+
+
+
+li a{
+    text-decoration: none;
+    display: block;
+    padding: 15px 18px;
+    color: red;
+}
+
+li a:hover{
+    background-color: yellowgreen;
+}
+
+div{
+    margin-left: 30%;
+    padding: 1px ;
+    height: 100%;
+    cursor: pointer;
+}
+
+@media screen and (max-width:400px){
+  body{
+    background-color: brown;
+    color: blue;
+  }
+}
+
+.flex{
+    background-color: gray;
+    display: flex;
+}
+
+.flex>div{
+background-color: black;
+margin:13px;
+padding: 60px;
+font-size: 40px;
+color: azure;
+}

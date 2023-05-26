@@ -1,0 +1,30 @@
+h1{
+    text-align: center;
+    font-size: 44px;
+    border: 5px solid black;
+    background-color:black ;
+    color: white;
+    font-family: cursive;
+    border-radius: 10px;
+}
+
+br,center{
+    text-align: center;
+    color: blue;
+    font-family: cursive;
+}
+
+ul{
+    text-align: left;
+    color: blue;
+    font-family: cursive;
+}
+
+body{
+    background-color: gainsboro;
+}
+
+p{
+    color: blue;
+    font-family: cursive;
+}

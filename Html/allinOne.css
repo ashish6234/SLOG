@@ -1,0 +1,105 @@
+/* Body Styles */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f56868;
+    margin: 0;
+    padding: 0;
+  }
+
+  /* Header Styles */
+  header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+
+  /* Navigation Styles */
+  nav {
+    background-color: #444;
+    padding: 10px;
+  }
+
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+
+  nav ul li {
+    display: inline;
+  }
+
+  nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding: 10px;
+  }
+
+  /* Main Content Styles */
+  main {
+    margin: 20px;
+  }
+
+  /* Section Styles */
+  section {
+    margin-bottom: 20px;
+  }
+
+  section h2 {
+    color: #333;
+  }
+
+  section p {
+    color: #666;
+  }
+
+  /* Form Styles */
+  form {
+    margin-top: 10px;
+  }
+
+  form label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+  }
+
+  form input[type="text"],
+  form input[type="email"],
+  form textarea {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+  }
+
+  form input[type="submit"] {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  /* Footer Styles */
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+
+  /* h4 {
+    font-size: px;
+  } */
+
+  #name{
+    border-radius: 10px;
+  }
+  button{
+    border-radius: 20px;
+    background-color: antiquewhite;
+    border: none;
+    font-size: 24px;
+  }

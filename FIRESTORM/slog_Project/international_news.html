@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- link google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <!-- link css here -->
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <!-- link java script -->
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <!-- JavaScript -->
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <!-- title here -->
+    <title>New90</title>
+</head>
+
+<body>
+    <div id="header">
+        <div id="top">
+            <p id="date">Wednesday, May 17, 2023</p>
+            <p style="font-family: 'Dancing Script', cursive;font-size: 70px;">News 90</p>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav mr-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="indian_news.html">Indian News <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="sports_news.html">Sports <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="international_news.html">International News <span class="sr-only">(current)</span></a>
+                    </li>
+                    
+                </ul>
+
+                <form class="form-inline my-2 my-lg-0">
+                    <button class="btn btn-success" type="submit" id="signIn"><a href="sign_in.html"
+                            style="text-decoration: none;color: white;">Sign In</a></button>
+                </form>
+            </div>
+        </nav>
+    </div>
+    <!-- news started form here -->
+    <div class="main">
+        <!-- first news -->
+        <div class="news1">
+            <h2>‘Drunk’ US driver switches places with his dog to avoid arrest</h2>
+            <img src="images/international/news1.webp" alt="">
+            <p>Before exiting his car, the man behind the wheel swapped places with a dog in his passenger seat, an officer who was observing him said.
+                A “drunk” driver in the United States allegedly tried to put his dog in the hot seat in order to avoid arrest during a traffic stop. According to authorities, the incident took place on Saturday night in Springfield town when a police officer stopped the man's vehicle for speeding, New York Post reported.</p>
+        </div>
+        <!-- second news -->
+        <div class="news2">
+            <h2>Imran Khan's party gets ultimatum on ‘30-40 terrorists’ present in his Lahore house</h2>
+            <img src="images/international/news2.webp" alt="">
+            <p>Thousands of Khan supporters had attacked and set on fire scores of government and public buildings,     including the army's headquarters, following his arrest.
+                The interim provincial government in Pakistan's Punjab on Thursday gave a 24-hour ultimatum to Pakistan Tehreek-e-Insaf (PTI) to hand over “30-40 terrorists who have taken refuge” in former Prime Minister Imran Khan's Zaman Park residence in Lahore, according to local media reports. Citing credible intelligence inputs, Punjab interim information minister Amir Mir reportedly claimed that “terrorists” who attacked Pakistan's Army installations were in contact with the PTI leadership at Zaman Park.
+            </p>
+        </div>
+        <!-- third news -->
+        <div class="news3">
+            <h2>China closed over 1 lakh online accounts in past month for spreading ‘fake news’</h2>
+            <img src="images/international/news3.webp" alt="error">
+            <p>The Cyberspace regulator said it wiped 107,000 accounts of counterfeit news units and news anchors and 835,000 pieces of fake news information since April 6.
+                China has intensified efforts to clean up the internet from false news and rumours, closing more than 100,000 online accounts over the past month that misrepresented news anchors and media agencies, its cyberspace regulator said.
+                
+                </p>
+        </div>
+        <!-- fourth news -->
+        <div class="news4">
+            
+            <div class="carousel" data-flickity='{ "wrapAround": true }'>
+                <div class="carousel-cell">
+                    <img src="images/international/news4.webp" height="100%" width="100%" alt="error"
+                        style="position: absolute;z-index: -1;filter: brightness(30%);">
+                    <h2 class="text">Worldwide executions increased by 53% in 2022: Amnesty report</h2>
+                    <p class="text">Amnesty said 70% of the executions in the Middle East and North Africa were carried out in Iran.
+                        Executions worldwide increased by 53% in 2022 from a year earlier, with a significant rise in Iran and Saudi Arabia, Amnesty International said in an annual report Tuesday that also criticized Indonesia as having one of the highest numbers of new death sentences in Asia.</p>
+                </div>
+                <div class="carousel-cell">
+                    <img src="images/international/news5.webp" height="100%" width="100%" alt="error"
+                        style="position: absolute;z-index: -1;filter: brightness(30%);">
+                    <h2 class="text">Ukraine supreme court chief arrested in $2.7 million graft probe
+                    </h2>
+                    <p class="text">Ukraine graft probe: A senior official leading the government's anti-corruption efforts informed the development to the reporters.
+                        Ukraine on Tuesday announced that law enforcement had detained the head of the country's supreme court in a $2.7 million bribery inquiry, as Kyiv pursues anti-graft measures required for closer integration with the European Union.</p>
+                </div>
+                <div class="carousel-cell">
+                    <img src="images/international/news6.webp" height="100%" width="100%" alt="error"
+                        style="position: absolute;z-index: -1;filter: brightness(30%);">
+                    <h2 class="text">Boris Johnson buys mansion worth $4.7million amid ‘low salary’ row: Report</h2>
+                    <p class="text">The house is located in Oxfordshire countryside and boasts of a combination of Tudor and Georgian architectural features.
+                        Former UK prime minister Boris Johnson's latest purchase of a luxurious mansion worth millions of pounds raised eyebrows after he complained about his salary as a public servant. The Mirror reported that Boris Johnson bought a nine-bedroom property known as Brightwell Manor for £3.8 million ($4.7million).</p>
+                </div>
+                <div class="carousel-cell">
+                    <img src="images/international/news7.webp" height="100%" width="100%" alt="error"
+                        style="position: absolute;z-index: -1;filter: brightness(30%);">
+                    <h2 class="text">Six killed, 700 injured after cyclone Mocha devastates Myanmar's coast</h2>
+                    <p class="text">Seawater raced into more than 10 low-lying wards near the shore as Cyclone Mocha made landfall in Rakhine state Sunday afternoon.
+                        Rescuers on Monday evacuated about 1,000 people trapped by seawater 3.6 meters (12 feet) deep along western Myanmar's coast after a powerful cyclone injured hundreds and cut off communications. Six deaths were reported, but the true impact was not yet clear in one of Asia’s least developed countries.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>
