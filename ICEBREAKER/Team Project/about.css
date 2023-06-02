@@ -1,0 +1,36 @@
+
+p{
+    text-align:center;
+}
+img{
+    margin-bottom: auto;
+}
+h2{
+    text-align: center;
+}
+.about-section{
+    border: 5px;
+}
+h1{
+    text-align: center;
+    border: 50px;
+    border-radius: 10px;
+    border-color: black;
+    background-color: yellow;
+}
+.img{
+    display: flex;
+    width: 50%;
+    padding-left: 500px;
+    height: 50%;
+    /* display: inline-flex; */
+    align-items: center;
+   
+}
+
+.container{
+
+    align-content: end;
+    background-color: aqua;
+
+}

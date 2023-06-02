@@ -187,6 +187,48 @@ console.log(numbers1.slice(3, 8))
 //   console.log(studentNames[i]);
 // }
 
+
+let rice = ["Grocery", "another item", "can add something else her"];
+let number12 = [1,23,4,4,5,5,4,4]
+
+
+let mixture = [1222, 3, 332, 444, "sting name", 'string another', null, undefined];
+// console.log(mixture);
+
+
+console.log(number12);
+console.log(rice[2]);
+
+mixture[3] = 2310;
+
+console.log(typeof mixture);
+console.log(Array.isArray(mixture));
+
+// adding to array 
+mixture.push("mango")
+console.log(mixture)
+
+// removing from array
+mixture.pop();
+console.log(mixture.pop());
+console.log(mixture);
+
+// will popout and print in console
+let poppedOut = mixture.pop();
+console.log(mixture);
+console.log("Popped out is", poppedOut)
+
+
+// unshift will add up on front up on the array
+mixture.unshift("Adding something");
+mixture.unshift(90);
+console.log(mixture);
+
+// shift will remove from the array
+let removeMixture = mixture.shift();
+console.log(mixture);
+console.log("Shift Remove this array", removeMixture);
+
     </script>
 </body>
 </html>
