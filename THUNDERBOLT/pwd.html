@@ -1,0 +1,248 @@
+
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="hexagons.css">
+    <link rel="stylesheet" type="text/css" href="custom.css">
+    <link href='https://fonts.googleapis.com/css?family=Raleway:300' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&display=swap' rel='stylesheet' type='text/css'>
+    <style type="text/css">
+    
+    </style>
+  </head>
+  <body>
+      <div class="header">
+          <img src="assets/logo.svg" / style="margin-left: 10px;">
+          <p style="margin-left: 10px;"> Public Works Department Uttarakhand </p>
+          <!--  -->
+      </div>
+      <div style="display: flex; justify-content: space-between;"> 
+          <button onclick="showDetails(this.dataset.option)" id="toggleBtn" data-option="1" style="color:#0378f5;"></button>
+          <button onclick="location.href='https://pwd.uk.gov.in/'" type="button" style="color:#0378f5;" ><img src="assets/globe.svg" />webpage</button>
+          
+      </div>
+    <!--   <div style="display: flex;">
+         <p style="background-color: #ff0000; color: #fff; font-weight: bold; font-size: 30px;">विभागीय बेब साइट सर्वर संबंधी रखरखाव कार्यों हेतु दिनांक 29-12-2022अपराहन 6:00 बजे से दिनांक 30-12-2022 पूर्वाहन 8:00 बजे तक बंद रहेगी। असुविधा के लिए खेद है। </p>
+      </div> -->
+
+    <ul  id="hexGrid"> </ul>
+    <div id="listGrid"> </ul>
+  </body>
+  <script>
+        const myArray = [
+              {
+                  "short": "ROW",
+                  "description": "Online Permission for Road Cutting",
+                  "image": "assets/roadCutting.jpg",
+                  "url": "https://roadcutting.pwduk.in/"
+              },
+              {
+                  "short": "Cont. Registration (Cont.)",
+                  "description": "Contractor Login for online Registration",
+                  "image": "assets/contRegistration_cont.jpg",
+                  "url": "https://investuttarakhand.uk.gov.in/"
+              },
+              {
+                  "short": "Manual Registration (Cont.)",
+                  "description": " Manual for online Registration",
+                  "image": "assets/manualConc.jpg",
+                  "url": "https://investuttarakhand.uk.gov.in/themes/backend/uploads/Contractor_Investor_Manual_V1.0.pdf"
+              },
+              {
+                  "short": "Cont. Registration (Deptt.)",
+                  "description": "Department Login for Cont. Registration",
+                  "image": "assets/contRegistration_dept.jpg",
+                  "url": "http://registration.pwduk.in/Dashboard.aspx"
+              },
+              {
+                  "short": "Manual Registration (Deptt.)",
+                  "description": "Manual for Cont. Registration",
+                  "image": "assets/manualDept.jpg",
+                  "url": "http://mis.pwduk.in/dms/index.php/category/286-contractor-registration"
+              },
+              {
+                  "short": "e-Office",
+                  "description": "e-Office Portal of Govt of Uttarakhand",
+                  "image": "assets/eOffice.jpg",
+                  "url": "https://eoffice-uttarakhand.uk.gov.in/index.php"
+              },
+              {
+                  "short": "MIS",
+                  "description": "Detail Information of Works / Contracts",
+                  "image": "assets/mis.jpg",
+                  "url": "http://mis.pwduk.in/pwd/"
+              },
+              {
+                  "short": "MIS Entry",
+                  "description": "Portal for Registered Users to Entry in MIS Portal",
+                  "image": "assets/entry.jpg",
+                  "url": "http://mis.pwduk.in/misentry/login"
+              },
+              {
+                  "short": "Infra Managment",
+                  "description": "Geotagged Data of All Assets ie Road, Bridges, Buildings",
+                  "image": "assets/im.jpg",
+                  "url": "http://mis.pwduk.in/im"
+              },
+              {
+                  "short": "HRMS",
+                  "description": "online Employee Appraisal Reports",
+                  "image": "assets/acr2.jpg",
+                  "url": "https://mis.pwduk.in/hrms/"
+              },
+              {
+                  "short": "DMS",
+                  "description": "Repository of All GO, Circulars, Training Material etc.",
+                  "image": "assets/dms.jpg",
+                  "url": "http://mis.pwduk.in/dms/"
+              },
+              {
+                  "short": "SOR",
+                  "description": "Schedule of Rates For Road and Bridges",
+                  "image": "assets/sor.jpg",
+                  "url": "http://mis.pwduk.in/pwd/sor"
+              },
+              {
+                  "short": "Transfer Act Data",
+                  "description": "Sugam/ Durgam Calculation for Transfer Act ",
+                  "image": "assets/transfer.jpg",
+                  "url": "http://mis.pwduk.in/hrms/trans/0/1/20/1"
+              },
+              {
+                  "short": "Employee Forum",
+                  "description": "Let discuss ",
+                  "image": "assets/forum.jpg",
+                  "url": "https://mis.pwduk.in/hrms/forum/threads"
+              },
+              {
+                  "short": "Organization Chart",
+                  "description": "Organization Chart of PWD Uttarakhand",
+                  "image": "assets/chart.jpg",
+                  "url": "http://mis.pwduk.in/hrms/orgChart"
+              },
+              {
+                  "short": "Directory",
+                  "description": "Phone Directory of all Employee",
+                  "image": "assets/phone.jpg",
+                  "url": "http://mis.pwduk.in/hrms/mobilePD"
+              },
+              {
+                  "short": "Royalty Checking",
+                  "description": "Checking of Royalty Forms submitted by Contractors",
+                  "image": "assets/royality.jpg",
+                  "url": "http://mis.pwduk.in/pwd/formj"
+              },
+              {
+                  "short": "Inspection Gallery",
+                  "description": "Images of Work, Road, Bridge Inspection",
+                  "image": "assets/roadinspection.jpg",
+                  "url": "http://mis.pwduk.in/pics/"
+              },
+              {
+                  "short": "Estimates Register",
+                  "description": "Estimates prepared for Sanctions",
+                  "image": "assets/estimates.jpg",
+                  "url": "https://mis.pwduk.in/pwd/track/estimate/"
+              },
+              {
+                  "short": "Patch Repair Report",
+                  "description": "Real Time Patch Repair Target and Achivement Reports",
+                  "image": "assets/patch.jpg",
+                  "url": "http://mis.pwduk.in/pwd/patchSummary/0"
+              },
+              {
+                  "short": "Feedback App",
+                  "description": "Feedback from Public App",
+                  "image": "assets/feedback.jpg",
+                  "url": "http://mis.pwduk.in/pwd/feedback"
+              },
+              {
+                  "short": "Agreement Register",
+                  "description": "Agreement Register for Public",
+                  "image": "assets/agreementRegister.jpg",
+                  "url": "http://mis.pwduk.in/pwd/contractRegisterRti"
+              },
+              {
+                  "short": "Contractors List",
+                  "description": "Contractors List for Public",
+                  "image": "assets/contractorList.jpg",
+                  "url": "https://mis.pwduk.in/pwd/contractorList"
+              },
+              {
+                  "short": "e- Procurement",
+                  "description": "e- Procurement Reports",
+                  "image": "assets/eproc.jpg",
+                  "url": "https://mis.pwduk.in/pwd/procurement"
+              },
+              {
+                  "short": "i-got Karmayogi",
+                  "description": "igotkarmayogi",
+                  "image": "assets/igot.jpg",
+                  "url": "https://portal.igotkarmayogi.gov.in"
+              },
+              {
+                  "short": "Font Convertor",
+                  "description": "KrutiDev Hindi to Unicode Hindi Font Convertor",
+                  "image": "assets/font.jpg",
+                  "url": "http://mis.pwduk.in/Font.html"
+              },
+              {
+                  "short": "Google Hindi Input",
+                  "description": "For Typing Hindi Font by Phonic Keyboard",
+                  "image": "assets/google.jpg",
+                  "url": "https://www.google.com/intl/hi/inputtools/try/"
+              }
+        ];
+
+        function showDetails(x) {
+          var text = '';
+          var option = x;
+          if (option == "1") {
+              myArray.forEach((element, index, array) => {
+                  text = text + 
+                        '<li class="hex">'+
+                          '<div class="hexIn">'+
+                            '<a class="hexLink" href="'+element.url+'">'+
+                              '<img src="'+element.image+'" alt="" />'+
+                              '<h1>'+element.short+'</h1>'+
+                              '<p>'+element.description+'</p>'+
+                            '</a>'+
+                          '</div>'+
+                        '</li>'
+                        ;
+              });
+            document.getElementById("toggleBtn").innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-list-ul" viewBox="0 0 16 16"><path fill-rule="evenodd" d="M5 11.5a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h9a.5.5 0 0 1 0 1h-9a.5.5 0 0 1-.5-.5zm-3 1a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2zm0 4a1 1 0 1 0 0-2 1 1 0 0 0 0 2z"/></svg>';
+            document.getElementById("toggleBtn").dataset.option = "2";
+            document.getElementById("listGrid").innerHTML = '';
+            document.getElementById("hexGrid").innerHTML = text;
+            document.getElementById("hexGrid").style.display = "flex";
+          } else {
+            document.getElementById("hexGrid").style.display = "none";
+            myArray.forEach((element, index, array) => {
+                  text = text + 
+                          '<ul>'+
+                            '<li>'+
+                                '<a class="" href="'+element.url+'">'+
+                                  '<h1>'+element.short+
+                                    ' ::<br><small>'+element.description+'</small>'+
+                                    '</h1>'+
+                                  
+                                '</a>'+
+                            '</li>'+
+                        '<br>'
+                        ;
+              });
+             document.getElementById("toggleBtn").innerHTML = '<svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-hexagon" viewBox="0 0 16 16"><path d="M14 4.577v6.846L8 15l-6-3.577V4.577L8 1l6 3.577zM8.5.134a1 1 0 0 0-1 0l-6 3.577a1 1 0 0 0-.5.866v6.846a1 1 0 0 0 .5.866l6 3.577a1 1 0 0 0 1 0l6-3.577a1 1 0 0 0 .5-.866V4.577a1 1 0 0 0-.5-.866L8.5.134z"/></svg>';
+             document.getElementById("toggleBtn").dataset.option = "1";
+             document.getElementById("listGrid").innerHTML = text;
+          }
+        }
+        window.addEventListener('load', function () {
+          showDetails(1);
+        })
+
+      </script>
+</html>
