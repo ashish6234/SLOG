@@ -1,0 +1,30 @@
+iframe {
+    border-radius: 20px;
+}
+
+.iF {
+    border-radius: 30px;
+}
+
+
+/* -Box Model */
+
+iframe {
+    border: 5px solid brown;
+    padding: 20px;
+    margin: 40px;
+    width: 250px;
+    height: 200px;
+    background-color: aqua;
+}
+
+h1 {
+
+    border: 5px solid brown;
+    padding: 20px;
+    margin: 40px;
+    width: 250px;
+    height: 200px;
+    background-color: aqua;
+
+}

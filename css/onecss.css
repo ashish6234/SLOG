@@ -2,3 +2,7 @@ p{
     background-color: antiquewhite;
     color: chocolate;
 }
+
+div{
+    border-radius: 20%;
+}
