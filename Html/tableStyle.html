@@ -3,14 +3,14 @@
 <head>
 <style>
 table {
-  font-family: arial, sans-serif;
+  font-family: cursive;
   border-collapse: collapse;
   width: 100%;
 }
 
 td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
+  border: 2px solid #171515;
+  text-align: center;
   padding: 8px;
 }
 
@@ -24,9 +24,16 @@ tr:nth-child(even) {
 <h2>HTML Table</h2>
 
 <table>
+  
+  <!-- -colgroup -->
+  
+  <colgroup>
+  
+    <col span="1" style="background-color: aqua;">
+  </colgroup>
+
   <tr>
-    <th>Company</th>
-    <th>Contact</th>
+    <th colspan="2">Company Contact</th>
     <th>Country</th>
   </tr>
   <tr>

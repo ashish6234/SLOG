@@ -1,0 +1,19 @@
+*{
+    color: aqua;
+}
+
+body{
+    text-align: center;
+}
+
+.change{
+    color: black;
+}
+
+#chan{
+    color: red;
+}
+
+h1, p, span{
+    font-family: cursive;
+}

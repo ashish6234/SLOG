@@ -76,3 +76,17 @@ console.log(perS.firsTN)
 //- Function in Js with 2 arguments es6 arrow function
 
 //? using object and template litrals
+
+
+// const introducer = (name, shirt) => {
+//     const person = {
+//         name: name,
+//         shirt: shirt,
+//     }
+//     const intro = 'hi my name is ${person.name} ${person.shirt}'
+
+//     return intro
+// }
+
+// console.log(introducer('ashish', 'black'))
+

@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=Black+Ops+One&family=Roboto&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Narnoor&display=swap');
 
 * {
   text-shadow: 2px 2px 4px #70f847;
@@ -17,9 +17,9 @@ p {
 }
 
 body {
-  background: #fffec7;
+  background: #fffec7 !important;
   text-align: center;
-  font-family: 'Roboto';
+  font-family: 'Narnoor', serif;
 
 }
 
@@ -74,6 +74,7 @@ textarea {
   box-shadow: inset 5px 5px 12px #cefc96,
     5px 5px 12px rgba(106, 111, 112, 0.893);
 }
+
 #myGender {
   margin: 10px;
   padding-bottom: 10px;
@@ -97,6 +98,7 @@ input[type="submit"] {
 input[type="submit"]:hover {
   background-color: #68ff6d;
 }
+
 input[type="reset"]:hover {
   background-color: #fe4747;
 }
@@ -122,5 +124,6 @@ input[type="reset"] {
   padding: 15px;
   border-radius: 20px;
   border-style: none;
-  box-shadow: inset 5px 5px 12px #180f0f, 5px 5px 12px rgba(27, 210, 239, 0.893);
+  box-shadow: inset 5px 5px 12px #180f0f,
+    5px 5px 12px rgba(27, 210, 239, 0.893);
 }

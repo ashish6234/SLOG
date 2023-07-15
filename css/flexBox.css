@@ -1,0 +1,47 @@
+body{
+    font-family: cursive;
+    font-size: 20px;
+    padding: 0 20px 30px 0;
+    line-height: 1.5;
+}
+
+.flx-Container{
+    background-color: beige;
+    display: flex;
+    flex-wrap: wrap;
+    flex-flow: row wrap;
+}
+
+.flx{
+    width: 100px;
+    height: 100px;
+    border: 2px skyblue solid;
+    text-align: center;
+    color: aliceblue;
+    line-height: 1.5;
+    background-color: blue;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+#flxB-1{
+    background-color:coral;
+}
+#flxB-2{
+background-color: goldenrod;
+}
+#flxB-3{
+
+    background-color: blue;
+}
+#flxB-4{
+background-color: chartreuse;
+}
+#flxB-5{
+    background-color: firebrick;
+
+}
+#flxB-6{
+    background-color: slategray;
+
+}
