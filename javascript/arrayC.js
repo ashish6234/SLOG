@@ -1,6 +1,4 @@
 // -Arrays 
-
-
 // const groceries = ['pears', 'apple', 'banana', 'oranges']
 // console.log(groceries)
 
@@ -60,7 +58,6 @@ person.numB = '7985038855'
 person['numB'] = '9383900222'
 console.log(person)
 
-
 //= another example 
 
 let perS = {
@@ -71,7 +68,6 @@ let perS = {
 
 console.log(perS)
 console.log(perS.firsTN)
-
 
 //- Function in Js with 2 arguments es6 arrow function
 
@@ -87,6 +83,4 @@ console.log(perS.firsTN)
 
 //     return intro
 // }
-
 // console.log(introducer('ashish', 'black'))
-

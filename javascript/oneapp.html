@@ -7,16 +7,86 @@
     <title>Javascript</title>
 </head>
 <body>
+    <p>Button</p>
 
-    <h1>Lorem</h1>
-    <h2>Lorem ipsum dolor sit amet.</h2>
-    <h3>Lorem ipsum dolor sit amet.</h3>
-    <h4>Lorem ipsum dolor sit amet.</h4>
-    <h5>Lorem ipsum dolor sit amet.</h5>
-    <h6>Lorem ipsum dolor sit amet.</h6>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error voluptatem, asperiores pariatur corrupti quae, distinctio temporibus harum deserunt veritatis eos quasi velit a quidem dolor excepturi neque. Quas, a vero.</p>
 
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam laborum repudiandae eaque, ullam, numquam sequi, tempora quam adipisci vitae necessitatibus omnis blanditiis! Iste, cum ullam at dicta vel officiis recusandae?</p>
+
+<script>
+
+
+    const para = document.querySelector("p");
+
+para.addEventListener("click", updateName);
+
+function updateName() {
+  const name = prompt("Enter a new name");
+  para.textContent = `Player 1: ${name}`;
+}
+</script>
+
+
+
+    <h1>vasu</h1>
+    <h1>vikas</h1>
+    <h1>prashant</h1>
+    <h1>ritesh</h1>
+
+    <h2>pascal case variable name "FirstName"</h2>
+    <h2>cemel case variable name "firstName"</h2>
+    <h2>snake case variable name "first_name"</h2>
+
+
+    <h2>Javascript</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veniam officia voluptate aspernatur animi cum quo modi inventore voluptas quos qui?</p>
+
+<p id="demo">A Paragraph</p>
+
+<button type="button" onclick="myFunction()">Try it</button>
+
+
+
+
+
+
+
+<script>
+
+var first_name = "Ashish"
+var first_name = "This and"
+let FirstName = "ashish"
+const firstName = "AShish"
+
+let num = 2003  // integer //
+let float = 2.3  // float //
+let non = null // null//
+let unnn = undefined // undefined //
+let b = 203999400993n  // bigint //
+let bool = true  // boolean //
+
+
+let First_nName = {
+    name: "ashish",
+    num: 3003,
+    none: null
+}
+
+
+const person = [ {firstName:"John", lastName:"Doe", age:50, eyeColor:"blue"}];
+
+
+
+console.log(num)
+
+
+console.log(firstName)
+
+
+    function myFunction() {
+        document.getElementById("demo").innerHTML = "Paragraph changed.";
+    }
+
+</script>
+
 
     <script src="oneapp.js"></script>
 </body>

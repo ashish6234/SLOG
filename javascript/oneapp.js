@@ -33,7 +33,7 @@
 
 // -------------------------------------------------------------------------------
 
-// 1-  const variable
+// ?1-  const variable
 // const Pi = 3.14
 // Pi =3.15
 // console.log(Pi);
@@ -41,11 +41,11 @@
 
 
 // 2- let variable
-let Pi = 3.14
+// let Pi = 3.14
 
-Pi = 3.24
+// Pi = 3.24
 
-console.log(Pi);
+// console.log(Pi);
 
 
 // 3- var variable
@@ -64,13 +64,13 @@ console.log(Pi);
 
 
 
-let varible
-for 
-( let i = 0; i < 5; i++) {
-    console.log(i)
-  }
+// let varible
+// for 
+// ( let i = 0; i < 5; i++) {
+//     console.log(i)
+//   }
 
-  console.log(i)
+//   console.log(i)
 
 
 // var Variable

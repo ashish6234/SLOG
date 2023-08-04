@@ -1,23 +1,23 @@
-// // Play the video
+// ? Play the video
 // function playVideo() {
 //     var video = document.getElementById('video-player');
 //     video.play();
 //   }
   
-//   // Pause the video
+//  ? Pause the video
 //   function pauseVideo() {
 //     var video = document.getElementById('video-player');
 //     video.pause();
 //   }
   
-//   // Stop the video
+//  ? Stop the video
 //   function stopVideo() {
 //     var video = document.getElementById('video-player');
 //     video.pause();
 //     video.currentTime = 0;
 //   }
   
-//   // Add event listeners to the video player controls
+//? Add event listeners to the video player controls
 //   document.getElementById('video-player').addEventListener('play', function() {
 //     console.log('Video is playing');
 //   });
@@ -31,26 +31,26 @@
 //   });
   
 
-// Define the video element
+//? Define the video element
 let video = document.getElementById('video-player');
 
-// Play the video
+//? Play the video
 function playVideo() {
   video.play();
 }
 
-// Pause the video
+//? Pause the video
 function pauseVideo() {
   video.pause();
 }
 
-// Stop the video
+//? Stop the video
 function stopVideo() {
   video.pause();
   video.currentTime = 0;
 }
 
-// Add event listeners to the video player controls
+//? Add event listeners to the video player controls
 video.addEventListener('play', function() {
   console.log('Video is playing');
 });

@@ -10,5 +10,5 @@ const myButton = document.getElementById("my-button");
 
 // add an event listener to the button
 myButton.addEventListener("click", function() {
-	alert("Button clicked!");
+	prompt("Button clicked!");
 });
