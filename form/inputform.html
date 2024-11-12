@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input and Form using CSS</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    
+
+    <script src="scripts.js"></script>
+    
+</head>
+
+<body>
+
+
+    
+    <h2>Html Form and Input Tag</h2>
+
+    <form action="Backend.php">
+
+        <label for="name">Name</label>
+        <div>
+            <input type="text" name="myName" id="name" placeholder="Type your Name OR Username">
+        </div>
+        <br>
+        <label for="role">Department</label>
+        <div>
+            <input type="text" name="myRole" id="role" placeholder="Your Department">
+        </div>
+        <br>
+        <label for="email">Email ID</label>
+        <div>
+            <input type="email" placeholder="Email Address" name="myEmail" id="email">
+        </div>
+        <br>
+        
+        <label for="date">Date</label>
+        <div>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <label for="bonus">Bonus</label>
+        <div>
+            <input type="number" placeholder="Your Desire Bonus" name="myBonus" id="bonus">
+        </div>
+        <br>
+
+        <div id="eli">
+            Are you eligible?: <input type="checkbox" name="myEligiblity" checked>
+
+        </div>
+        <br>
+        <div id="myGender">
+            Gender: Male <input type="radio" name="myGender"> Female <input type="radio" name="myGender"></div>
+
+            <br>
+            <div>
+                write About yourSelf: <br>
+                <textarea name="myText" placeholder="Describe Yourself" cols="45" rows="5"></textarea>
+            </div>
+            <br>
+
+            <div class="carsId">
+                <label for="car">Car</label>
+                <select name="myCar" id="car">
+                    <option value="mg" id="mG">M.G Hector</option>
+                    <option value="kia" id="kiA">Kia</option>
+                </select>
+            </div>
+            <br>
+
+            <p>Lorem ipsum dolor sit.</p>
+
+            <div>
+                <input type="submit" value="Submit Now">
+                <input type="reset" value="Reset All">
+            </div>
+
+    </form>
+</body>
+</html>
